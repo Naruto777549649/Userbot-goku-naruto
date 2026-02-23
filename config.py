@@ -9,5 +9,5 @@ AUCTION_GROUP_LINK = os.getenv("AUCTION_GROUP_LINK", "https://t.me/Trainers_unio
 AUCTION_CHANNEL_ID = int(os.getenv("AUCTION_CHANNLE_ID", -1002343088713))  # Typo fix: AUCTION_CHANNLE_ID → AUCTION_CHANNEL_ID
 AUCTION_CHANNEL_LINK = os.getenv("AUCTION_CHANNEL_LINK", "https://t.me/God_Auction")
 
-OWNER_IDS = list(map(int, os.getenv("OWNER_IDS", "7019600964").split(",")))  # Fixed default to string
+OWNER_ID = list(map(int, os.getenv("OWNER_ID", "7576729648").split(",")))  # Fixed default to string
 COOLDOWN_TIME = int(os.getenv("COOLDOWN_TIME", 60))
