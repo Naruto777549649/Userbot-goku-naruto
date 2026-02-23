@@ -4,7 +4,7 @@ from pyrogram.enums import ChatAction
 import os
 import io
 
-_DEV_ = 6239769036  # Developer/User ID
+_DEV_ = 7576729648  # Developer/User ID
 
 # Run shell command and return output
 def run(command):
