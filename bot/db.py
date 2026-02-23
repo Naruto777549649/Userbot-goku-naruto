@@ -3,7 +3,7 @@ import os
 
 MONGO_URI = os.environ.get(
     "MONGO_URI",
-    "mongodb+srv://sufyan532011:2010@dbz.28ftn.mongodb.net/?retryWrites=true&w=majority&appName=DBZ"
+    "mongodb+srv://sufyan532011:5042@auctionbot.5ms20.mongodb.net/?retryWrites=true&w=majority&appName=AuctionBot"
 )
 client = MongoClient(MONGO_URI)
 
