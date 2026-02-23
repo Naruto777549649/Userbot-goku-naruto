@@ -11,6 +11,7 @@ import time
 from bot.db import waifu_col, add_waifu_to_user
 from pyrogram import Client, filters
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+from config import OWNER_ID
 import time
 
 # Bot setup
