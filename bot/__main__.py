@@ -18,7 +18,7 @@ bot = Client(
     "waifu_bot",
     api_id=25698862,
     api_hash="7d7739b44f5f8c825d48cc6787889dbc",
-    bot_token="7982886378:AAEcf-VbY9bvj-4DFMLe4rMOQMlJpD8TfGY"
+    bot_token="8320754434:AAHm0kvKuyJAX_zEhfo2XZ5T0uT1OFKu3zw"
 )
 
 start_time = time.time()
